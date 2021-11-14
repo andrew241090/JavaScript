@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let time = +prompt('Which part of time?');
+
+    if (time<=15) {
+        document.write('<h1>first part</h1>');
+    }
+    else if (time>15 && time <=30){
+        document.write('<h1>second part</h1>');
+    }
+    else if (time>30 && time <=45){
+        document.write('<h1>third part</h1>');
+    }
+    else if (time>45 && time <=59){
+        document.write('<h1>fourth part</h1>');
+    }
+
+
+
+
+
+    let day = +prompt('Number of decade is-');
+    if (day<10){
+        console.log('first decade');
+    }
+    else if (day>10 && day<=20){
+        console.log('second decade');
+    }
+    else if (day>20 && day<=31){
+        console.log('third decade');
+    }
+
+
+     let test= 'testing';
+     if ( test === true) {
+         console.log('Вірно');
+     }
+    else {
+        console.log('Не вірно');
+     }
+
+    let test= 'testing';
+    if ( test != true) {
+        console.log('Вірно');
+    }
+    else {
+        console.log('Не вірно');
+    }
+
+
+
+    let a=0;
+    if (a !== 0){
+        a="Вірно";
+    }
+    else {
+        a='Не вірно'
+    }
+    console.log(a);
+
+    let shedule='';
+    switch (shedule) {
+        case 'monday':
+            console.log("Піти в спортзал");
+            break;
+        case 'tuesday':
+            console.log("Вигуляти собаку");
+            break;
+        case 'wednesday':
+            console.log("Відвідати кафе");
+            break;
+        case 'thursday':
+            console.log("Вивчити уроки");
+            break;
+        case 'friday':
+            console.log("Плавання");
+            break;
+        case 'saturday':
+            console.log("Подивитись фільм");
+            break;
+        case 'sunday':
+            console.log("Прогулянка в лісі");
+            break;
+    }
+
+    let year=+prompt('Введіть число');
+    if (year%4){
+        console.log('Високосний')
+    }
+    else {
+        console.log('Не високосний')
+    }
+
+    let name = prompt('Яка офіційна назва Java Script?');
+    if (name==='ECMAScript'){
+        console.log('Правильно');
+    }
+    else {
+        console.log('Не знаєте?ECMAScript');
+    }
+
+</script>
+</body>
+</html>
