@@ -20,10 +20,22 @@
    //  empty[4]='volvo';
    //  console.log(empty);
 
-let year=+prompt('Введіть число');
-if (year%2===0){
-    console.log('Високосний')
+// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+// - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+// - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+
+
+ for (let i=0; i<10; i++){
+  document.write('<div>item</div>');
+ }
+for (let i=0; i<10; i++){
+ document.write(`<div>item ${i}</div>`);
 }
-else {
-    console.log('Не високосний')
+
+
+while (i<20){
+ document.write()
 }
+
+
