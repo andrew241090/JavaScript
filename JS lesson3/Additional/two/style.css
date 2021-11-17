@@ -1,0 +1,9 @@
+.wrap{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-card{
+    text-align: center;
+    width: 180px;
+}
