@@ -37,9 +37,19 @@ let simpsons = [
 ];
 
 
+// for (const simpson of simpsons){
+//     document.write(`<div>`);
+//     document.write(`${simpson.name} -Age is-${simpson.age} - ${simpson.info} - -<img src="${simpson.photo}" alt=""`  )
+//     document.write(`</div>`);
+//
+// }
+
 for (const simpson of simpsons){
-    document.write(`<div>`);
-document.write(`${simpson.name} -Age is-${simpson.age} - ${simpson.info} - -<img src="${simpson.photo}" alt=""`  )
-    document.write(`</div>`);
+document.write(`<div class="simple">`);
+document.write(`<h2>${simpson.name} ${simpson.surname}. Age is ${simpson.age}</h2>`)
+document.write(`<p>${simpson.info}</p>`)
+document.write(`<img src="${simpson.photo}" alt=""/>`)
+document.write(`</div>`);
+
 
 }
