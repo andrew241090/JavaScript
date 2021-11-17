@@ -20,3 +20,11 @@ let products = [
         image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
     },
 ];
+document.write(`<div>`);
+for (const product of products){
+    document.write(`<div class="product-card">`);
+    document.write(`<h3 class="product-title">${product.title}. Price- ${product.price} грн.</h3>`);
+    document.write(`<img src="${product.image}" alt="${product.title}" class="product-image">`)
+    document.write(`</div>`);
+}
+document.write(`</div>`);

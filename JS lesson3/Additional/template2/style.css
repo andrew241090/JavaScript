@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.product-card{
+
+    width: 300px;
+}
+.product-image{
+    width: 300px;
+    background-color: gray;
+}
