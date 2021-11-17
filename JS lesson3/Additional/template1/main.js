@@ -36,3 +36,10 @@ let simpsons = [
     },
 ];
 
+
+for (const simpson of simpsons){
+    document.write(`<div>`);
+document.write(`${simpson.name} -Age is-${simpson.age} - ${simpson.info} - -<img src="${simpson.photo}" alt=""`  )
+    document.write(`</div>`);
+
+}
