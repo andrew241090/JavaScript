@@ -26,12 +26,12 @@
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
 //
-//  for (let i=0; i<10; i++){
-//   document.write('<div>item</div>');
-//  }
-// for (let i=0; i<10; i++){
-//  document.write(`<div>item ${i}</div>`);
-// }
+ for (let i=0; i<10; i++){
+  document.write('<div>item</div>');
+ }
+for (let i=0; i<10; i++){
+ document.write(`<div>item ${i}</div>`);
+}
 
 
 
