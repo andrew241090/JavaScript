@@ -28,23 +28,24 @@
 
 // - створити функцію яка повертає найбільше число з масиву
 
-// let massive=[34,6,87,-4,65,44,1];
-// function maxnumberofarray(arr){
-//     let min=arr[0];
-//  for (const item of arr){
-//      if (item>min){
-//          min=item;
-//      }
-//  }
-//  return min;
+// let massive=[333,6,87,3454353,-4,65,44,1];
+// function maxnumberofarray(arr) {
+//     let max = arr[0];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (i > max) {
+//             max = i;
+//         }
+//     }
+//         return max;
 // }
 // document.write(`<h2>Найбільше число масиву: ${maxnumberofarray(massive)}</h2>`)
+// maxnumberofarray(massive);
 
 
 // - створити функцію яка повертає найменьше число з масиву
 //
 // let massive=[34,6,87,-4,65,44,1];
-// function maxnumberofarray(arr){
+// function minnumberofarray(arr){
 //     let min=arr[0];
 //  for (const item of arr){
 //      if (item<min){
@@ -53,7 +54,7 @@
 //  }
 //  return min;
 // }
-// document.write(`<h2>Найменше число масиву: ${maxnumberofarray(massive)}</h2>`)
+// document.write(`<h2>Найменше число масиву: ${minnumberofarray(massive)}</h2>`)
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
