@@ -33,5 +33,5 @@
 // -- поміняти колір тексту у всіх елементів fc_rules на червоний
 // let rules = document.getElementsByClassName('fc_rules');
 // for (let item of rules){
-//     item.style.background='red';
+//     item.style.color='red';
 // }
