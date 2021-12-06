@@ -1,0 +1,6 @@
+
+.durations{
+    display:flex;
+    column-gap: 10px;
+    background-color: cornflowerblue;
+}
