@@ -153,9 +153,11 @@ for (const course of coursesArray) {
     let monthDurationElement = document.createElement('div');
     monthDurationElement.innerText = course.monthDuration;
     monthDurationElement.style.width='40%';
+    monthDurationElement.style.background='silver';
     let hourDurationElement = document.createElement('div');
     hourDurationElement.innerText = course.hourDuration;
     hourDurationElement.style.width='60%';
+    hourDurationElement.style.background='silver';
 
     let modblock = document.createElement('div');
     modblock.classList.add('c');
