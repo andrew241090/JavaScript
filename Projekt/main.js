@@ -39,10 +39,10 @@ fetch('https://jsonplaceholder.typicode.com/users')
         for (const usersItem of value) {
             let usersId = document.createElement('div')
             usersId.classList.add('userId')
-            usersId.innerText = `user id -  ${usersItem.id}, name - ${usersItem.name}`;
+            usersId.innerText = `User id -  ${usersItem.id}, Name - ${usersItem.name}`;
             let btn = document.createElement('button');
             btn.classList.add('btn')
-            btn.innerHTML = 'show details';
+            btn.innerHTML = 'SHOW DETAILS';
 
             btn.addEventListener('mousedown', function () {
 
