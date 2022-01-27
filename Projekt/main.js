@@ -51,7 +51,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
                     .then(value => {
                         localStorage.clear()
                         localStorage.setItem('value.name', JSON.stringify(value))
-
                     })
 
 

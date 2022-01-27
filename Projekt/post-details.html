@@ -16,6 +16,7 @@
   let textPost = postDetails.innerHTML = `<br>Post title</br> - ${parsePost.title} <br>
      <br>Post body</br> - ${parsePost.body}`
 
+
   fetch(`https://jsonplaceholder.typicode.com/posts/${parsePost.id}/comments`)
           .then(value => value.json())
           .then(value => {
