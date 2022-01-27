@@ -5,7 +5,7 @@
     background-color: cornflowerblue;
     border-radius: 8px;
     border: 2px solid black;
-    transition: 1s;
+    transition: 0.5s;
 }
 .target{
     height: 16px;
